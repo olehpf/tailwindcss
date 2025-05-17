@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  },
+  "type": "module",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "name": "storybook",
+  "version": "1.0.0",
+  "main": ".cursor.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
